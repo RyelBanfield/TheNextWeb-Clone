@@ -24,26 +24,29 @@ a {
 main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 5px;
 }
 
 ul {
-  list-style: none;  
+  list-style: none;
 }
 
 ul li::before {
-  content: "\2022";   
-  color: red;  
-  font-weight: bold;  
-  display: inline-block;  
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
 }
 
 img {
   width: 100%;
 }
-small {
-  font-size: 12px;
-  opacity: 0.5;
+
+small,
+small a {
+  color: #ccc;
+  font-size: 14px;
+  opacity: 0.9;
   font-weight: 100px;
   margin: 10px;
 }
@@ -74,7 +77,7 @@ small {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #ccc;
-  min-width: 400px;
+  min-width: 375px;
 }
 
 .nav-bar-logo-box {
@@ -105,14 +108,15 @@ small {
 
 /* TOP SECTION */
 
-.article-title a {
+.article-title a,
+.article-header a {
   color: white;
   font-size: 20px;
 }
 
 .top-section div,
 .top-section aside {
-  min-height: 300px;
+  min-height: 200px;
   background-size: cover;
 }
 
@@ -121,6 +125,7 @@ small {
 }
 
 .feature-article {
+  background-color: rgb(0, 0, 0, 0.7);
   background-image: url("./assets/Capitol-dating-app-796x417.jpg");
 }
 
@@ -129,6 +134,7 @@ small {
 }
 
 .side-article-one {
+  background-color: black;
   background-image: url("./assets/Galaxy-hed-796x419.jpg");
 }
 
@@ -142,7 +148,7 @@ small {
   flex-direction: column;
   color: white;
   padding: 10px;
-  align-items: center;
+  align-items: flex-start;
 }
 .content {
   margin: 10px;
@@ -160,7 +166,7 @@ small {
 .lastest-news-img {
   width: 75px;
   height: 60px;
-  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .lastest-news-article > div {
@@ -218,9 +224,7 @@ small {
   background-color: #ff442214;
 }
 
-/* .latest-funding-description {
-
-} */
+/* .latest-funding-description
 
 /* More articles */
 
@@ -278,9 +282,9 @@ small {
   background-size: cover;
 }
 
-.sub-article{
+.sub-article {
   display: flex;
-  background-color:rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, 0.06);
   margin: 2px 0;
 }
 
@@ -306,13 +310,55 @@ small {
 }
 
 .last-article-description > ul > li {
-   border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
-.last-article-description  a {
+.last-article-description a {
   padding: 5px;
   font-size: 11px;
   opacity: 0.7;
   text-decoration: none;
   font-weight: normal;
   margin: auto;
+}
+
+/* LATEST DEALS */
+
+.deals-headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deal-img {
+  width: 75px;
+  height: 75;
+}
+
+.latest-deal-articles {
+  display: flex;
+}
+
+/* FOOTER  */
+
+.main-footer {
+  color: white;
+  background-color: #aaa;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  max-width: 200px;
+  margin: auto;
+}
+
+.footer-links {
+  text-align: center;
+  font-size: 10px;
+}
+
+.copyright {
+  text-align: center;
 }
