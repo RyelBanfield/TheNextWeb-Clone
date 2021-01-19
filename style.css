@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
   /* border: 1px solid black; */
 }
 
@@ -26,6 +27,20 @@ main {
   padding: 0 20px;
 }
 
+ul {
+  list-style: none;  
+}
+
+ul li::before {
+  content: "\2022";   
+  color: red;  
+  font-weight: bold;  
+  display: inline-block;  
+}
+
+img {
+  width: 100%;
+}
 small {
   font-size: 12px;
   opacity: 0.5;
@@ -36,6 +51,7 @@ small {
 .section-title {
   font-weight: 800;
   color: rgb(255, 60, 0);
+  margin: 15px 0;
 }
 
 .section-subtitle {
@@ -96,7 +112,6 @@ small {
 
 .top-section div,
 .top-section aside {
-  width: calc(100vh - 40px);
   min-height: 300px;
   background-size: cover;
 }
@@ -105,7 +120,7 @@ small {
   display: none;
 }
 
-.main-article {
+.feature-article {
   background-image: url("./assets/Capitol-dating-app-796x417.jpg");
 }
 
@@ -144,7 +159,7 @@ small {
 }
 .lastest-news-img {
   width: 75px;
-  height: 75px;
+  height: 60px;
   margin-left: 20px;
 }
 
@@ -203,5 +218,101 @@ small {
   background-color: #ff442214;
 }
 
-.latest-funding-description {
+/* .latest-funding-description {
+
+} */
+
+/* More articles */
+
+.article1 {
+  background-image: url("./assets/Trump-Twitter-368x276.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.article2 {
+  background-image: url("./assets/Untitled-design-13-368x276.png");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.article3 {
+  background-image: url("./assets/Eye-strain-screen-time-hed-796x419.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.article4 {
+  background-image: url("./assets/1-copy-26-516x270.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.article5 {
+  background-image: url("./assets/Galaxy-hed-796x419.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.article6 {
+  background-image: url("./assets/featured-e1561584989913-537x270.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.article7 {
+  background-image: url("./assets/car-ev-tesla-bus-future-electric-car-cambridgeshire.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.article8 {
+  background-image: url("./assets/android-auto-language-ev-future-car-infotainment-car-play-carplay-android-phone-368x276.png");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.article9 {
+  background-image: url("./assets/WhatsApp-police-hed-513x270.jpg");
+  min-height: 300px;
+  background-size: cover;
+}
+
+.sub-article{
+  display: flex;
+  background-color:rgba(255,68,34,.06);
+  margin: 2px 0;
+}
+
+.side-img {
+  top: 0;
+  right: 0;
+  width: 100px;
+}
+
+.side-description {
+  margin: auto;
+  padding: 15px;
+  font-size: 14px;
+  overflow: hidden;
+  color: #f42;
+}
+
+.side-description > p > a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  color: #f42;
+}
+
+.last-article-description > ul > li {
+   border-bottom: 1px solid #ccc;
+}
+.last-article-description  a {
+  padding: 5px;
+  font-size: 11px;
+  opacity: 0.7;
+  text-decoration: none;
+  font-weight: normal;
+  margin: auto;
 }
