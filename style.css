@@ -19,12 +19,30 @@ a {
   line-height: 1.5;
   min-height: 100vh;
 }
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 small {
   font-size: 12px;
   opacity: 0.5;
   font-weight: 100px;
   margin: 10px;
 }
+
+.section-title {
+  font-weight: 800;
+  color: rgb(255, 60, 0);
+}
+
+.section-subtitle {
+  display: flex;
+  flex-direction: column;
+}
+
 /* NAV BAR */
 
 .top-nav-bar {
@@ -66,7 +84,7 @@ small {
 }
 
 .fa-bars {
-  color: rgb(235, 96, 3);
+  color: rgb(255, 60, 0);
 }
 
 /* TOP SECTION */
@@ -81,7 +99,6 @@ small {
   width: calc(100vh - 40px);
   min-height: 300px;
   background-size: cover;
-   
 }
 
 .main-logo {
@@ -92,7 +109,7 @@ small {
   background-image: url("./assets/Capitol-dating-app-796x417.jpg");
 }
 
-.article-date{
+.article-date {
   display: none;
 }
 
@@ -111,7 +128,6 @@ small {
   color: white;
   padding: 10px;
   align-items: center;
-
 }
 .content {
   margin: 10px;
@@ -123,10 +139,6 @@ small {
   margin: 10px;
 }
 
-.section-title {
-  font-weight: 800;
-  color: rgb(255, 115, 0);
-}
 .lastest-news-article {
   display: flex;
 }
@@ -139,4 +151,57 @@ small {
 .lastest-news-article > div {
   font-size: 16px;
   color: black;
+}
+
+/* Latest Funding Rounds */
+
+.section-subtitle a {
+  font-weight: 100;
+  padding: 2px;
+  color: rgb(255, 115, 0);
+}
+
+.latest-funding-rounds {
+  margin-top: 100px;
+}
+
+.latest-funding-article img {
+  width: 60px;
+  height: 60;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.latest-funding-article h4,
+.latest-funding-article h5 {
+  padding-left: 100px;
+}
+
+.latest-funding-article {
+  position: relative;
+  margin-top: 20px;
+  background-color: rgb(245, 239, 220);
+}
+
+.latest-funding-company-name {
+  padding-top: 10px;
+  padding-left: 100px;
+  height: 40px;
+  background-color: #f42;
+}
+
+.latest-funding-amount {
+  height: 20px;
+  background-color: #ff442214;
+}
+
+.latest-funding-cat {
+  height: 20px;
+  background-color: #ff442214;
+}
+
+.latest-funding-description {
 }
