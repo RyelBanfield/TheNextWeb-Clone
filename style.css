@@ -9,8 +9,22 @@
 
 a {
   text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 16px;
+  text-align: left;
 }
 
+.body {
+  line-height: 1.5;
+  min-height: 100vh;
+}
+small {
+  font-size: 12px;
+  opacity: 0.5;
+  font-weight: 100px;
+  margin: 10px;
+}
 /* NAV BAR */
 
 .top-nav-bar {
@@ -26,6 +40,7 @@ a {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #ccc;
+  min-width: 400px;
 }
 
 .nav-bar-logo-box {
@@ -63,10 +78,10 @@ a {
 
 .top-section div,
 .top-section aside {
-  min-width: 367.43px;
-  min-height: 243.6px;
-  margin: auto;
-  background-size: 100% 100%;
+  width: calc(100vh - 40px);
+  min-height: 300px;
+  background-size: cover;
+   
 }
 
 .main-logo {
@@ -77,10 +92,51 @@ a {
   background-image: url("./assets/Capitol-dating-app-796x417.jpg");
 }
 
+.article-date{
+  display: none;
+}
+
 .side-article-one {
   background-image: url("./assets/Galaxy-hed-796x419.jpg");
 }
 
 .side-article-two {
   background-image: url("./assets/Eye-strain-screen-time-hed-796x419.jpg");
+}
+
+.article-content {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: center;
+
+}
+.content {
+  margin: 10px;
+}
+
+/* Lastest News */
+
+.lastest-news {
+  margin: 10px;
+}
+
+.section-title {
+  font-weight: 800;
+  color: rgb(255, 115, 0);
+}
+.lastest-news-article {
+  display: flex;
+}
+.lastest-news-img {
+  width: 75px;
+  height: 75px;
+  margin-left: 20px;
+}
+
+.lastest-news-article > div {
+  font-size: 16px;
+  color: black;
 }
