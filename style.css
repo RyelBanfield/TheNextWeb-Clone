@@ -44,10 +44,8 @@ img {
 
 small,
 small a {
-  color: #ccc;
-  font-size: 14px;
-  opacity: 0.9;
-  font-weight: 100px;
+  font-size: 10px;
+  font-weight: lighter;
   margin: 10px;
 }
 
@@ -77,8 +75,7 @@ small a {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #ccc;
-  min-width: 375px;
-}
+ }
 
 .nav-bar-logo-box {
   background-color: black;
@@ -125,7 +122,6 @@ small a {
 }
 
 .feature-article {
-  background-color: rgb(0, 0, 0, 0.7);
   background-image: url("./assets/Capitol-dating-app-796x417.jpg");
 }
 
@@ -134,7 +130,6 @@ small a {
 }
 
 .side-article-one {
-  background-color: black;
   background-image: url("./assets/Galaxy-hed-796x419.jpg");
 }
 
@@ -144,6 +139,7 @@ small a {
 
 .article-content {
   display: flex;
+  background-image: linear-gradient(to top, black, transparent);
   justify-content: flex-end;
   flex-direction: column;
   color: white;
@@ -152,6 +148,14 @@ small a {
 }
 .content {
   margin: 10px;
+}
+
+.article-author,
+.article-author a{
+  font-size: 9px;
+  font-weight: lighter;
+  color: white;
+  margin: 10px 0;
 }
 
 /* Lastest News */
@@ -196,32 +200,65 @@ small a {
   margin-left: 20px;
 }
 
-.latest-funding-article h4,
+/* .latest-funding-article h4,
 .latest-funding-article h5 {
   padding-left: 100px;
-}
+} */
 
 .latest-funding-article {
   position: relative;
   margin-top: 20px;
-  background-color: rgb(245, 239, 220);
+  background-color:#fffaf8;
 }
 
 .latest-funding-company-name {
   padding-top: 10px;
   padding-left: 100px;
+  color: white;
   height: 40px;
   background-color: #f42;
 }
+.funding-desc {
+  padding: 10px 0 10px 100px;
+  background-color: #ff442214;
+
+}
 
 .latest-funding-amount {
-  height: 20px;
-  background-color: #ff442214;
+  margin: 0; 
 }
 
 .latest-funding-cat {
-  height: 20px;
-  background-color: #ff442214;
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.4;
+   
+}
+.latest-funding-description {
+  background-color: #fffaf8;
+  color: #555;
+  font-size: 13px;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.latest-funding-description > div {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.latest-funding-description p {
+  border-top: 1px solid rgba(255,68,34,.25);
+  margin-top: 15px;
+  padding: 10px 5px;
+  font-weight: normal;
+}
+
+.latest-funding-description .material-icons {
+  font-size: 18px;
+  margin-right: 5px;
+  color: black;
 }
 
 /* More articles */
