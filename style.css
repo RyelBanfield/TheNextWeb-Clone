@@ -2,4 +2,85 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+/* GENERAL */
+
+a {
+  text-decoration: none;
+}
+
+/* NAV BAR */
+
+.top-nav-bar {
+  display: none;
+}
+
+.bottom-nav-bar {
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.nav-bar-logo-box {
+  background-color: black;
+  width: 106px;
+  height: 48px;
+}
+
+.nav-logo {
+  display: block;
+  width: 66px;
+  margin: auto;
+  padding-top: 18px;
+}
+
+.nav-bar-icons i {
+  padding: 15px;
+  border-left: 1px solid #ccc;
+}
+
+.fa-search {
+  opacity: 45%;
+}
+
+.fa-bars {
+  color: rgb(235, 96, 3);
+}
+
+/* TOP SECTION */
+
+.article-title a {
+  color: white;
+  font-size: 20px;
+}
+
+.top-section div,
+.top-section aside {
+  min-width: 367.43px;
+  min-height: 243.6px;
+  margin: auto;
+  background-size: 100% 100%;
+}
+
+.main-logo {
+  display: none;
+}
+
+.main-article {
+  background-image: url("./assets/Capitol-dating-app-796x417.jpg");
+}
+
+.side-article-one {
+  background-image: url("./assets/Galaxy-hed-796x419.jpg");
+}
+
+.side-article-two {
+  background-image: url("./assets/Eye-strain-screen-time-hed-796x419.jpg");
 }
