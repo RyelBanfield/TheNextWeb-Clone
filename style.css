@@ -62,10 +62,7 @@ small a {
 
 /* NAV BAR */
 
-.top-nav-bar {
-  display: none;
-}
-
+.top-nav-bar,
 .bottom-nav-bar {
   display: none;
 }
@@ -75,7 +72,7 @@ small a {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #ccc;
- }
+}
 
 .nav-bar-logo-box {
   background-color: black;
@@ -151,7 +148,7 @@ small a {
 }
 
 .article-author,
-.article-author a{
+.article-author a {
   font-size: 9px;
   font-weight: lighter;
   color: white;
@@ -208,7 +205,7 @@ small a {
 .latest-funding-article {
   position: relative;
   margin-top: 20px;
-  background-color:#fffaf8;
+  background-color: #fffaf8;
 }
 
 .latest-funding-company-name {
@@ -221,18 +218,16 @@ small a {
 .funding-desc {
   padding: 10px 0 10px 100px;
   background-color: #ff442214;
-
 }
 
 .latest-funding-amount {
-  margin: 0; 
+  margin: 0;
 }
 
 .latest-funding-cat {
   font-size: 12px;
   font-weight: normal;
   opacity: 0.4;
-   
 }
 .latest-funding-description {
   background-color: #fffaf8;
@@ -249,7 +244,7 @@ small a {
 }
 
 .latest-funding-description p {
-  border-top: 1px solid rgba(255,68,34,.25);
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
   margin-top: 15px;
   padding: 10px 5px;
   font-weight: normal;
@@ -369,8 +364,17 @@ small a {
   height: 75;
 }
 
+.latest-deals {
+  margin-bottom: 20px;
+}
+
 .latest-deal-articles {
   display: flex;
+  margin-bottom: 5px;
+}
+
+.latest-deal-articles div {
+  margin-left: 5px;
 }
 
 /* FOOTER  */
@@ -378,22 +382,64 @@ small a {
 .main-footer {
   color: white;
   background-color: #aaa;
+  font-size: 10px;
 }
 
 .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  max-width: 200px;
+  height: 80px;
+  max-width: 275px;
   margin: auto;
+}
+
+.social-icons a i {
+  text-align: center;
+  color: white;
+  background-color: #333;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  margin: 1px;
+  border: 1px solid #333;
+  border-radius: 50%;
 }
 
 .footer-links {
   text-align: center;
+}
+
+.footer-links a {
+  color: #aaa;
+  padding: 2px;
   font-size: 10px;
 }
 
 .copyright {
   text-align: center;
+}
+
+.footer-wrapper {
+  background-color: #131313;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  line-height: 50px;
+  height: 50px;
+  background-color: #000;
+  padding-bottom: 10px;
+}
+
+.copyright span {
+  color: #aaa;
+}
+
+/* MEDIA Queries */
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1020px) {
 }
