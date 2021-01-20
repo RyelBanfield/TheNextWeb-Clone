@@ -8,7 +8,7 @@ This is the second Microverse collaborative project
 
 > This is the second Microverse collaborative project.
 
-![screenshot](./assets/SCREENSHOT.png)
+![screenshot](assets/SCREENSHOT.png)
 
 Additional description about the project and its features.
 
@@ -18,21 +18,21 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://nganifaith.github.io/thenextweb_clone/)
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/ryelbanfield)
-- Twitter: [@twitterhandle](https://twitter.com/ryelbanfield)
-- LinkedIn: [LinkedIn](https://linkedin.com/ryelbanfield)
+- GitHub: [@RyelBanfield](https://github.com/ryelbanfield)
+- Twitter: [@RyelBanfield](https://twitter.com/ryelbanfield)
+- LinkedIn: [RyelBanfield](https://linkedin.com/ryelbanfield)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/nganifaith)
-- Twitter: [@twitterhandle](https://twitter.com/Bright_ngani)
-- LinkedIn: [LinkedIn](https://linkedin.com/ngani-faith)
+- GitHub: [@nganifaith](https://github.com/nganifaith)
+- Twitter: [@Bright_ngani](https://twitter.com/Bright_ngani)
+- LinkedIn: [Kongnyu Faith Ngani](https://linkedin.com/ngani-faith)
 
 ## Show your support
 
