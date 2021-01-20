@@ -115,16 +115,12 @@ small a {
   background-size: cover;
 }
 
-.main-logo {
+.logo-date-wrapper {
   display: none;
 }
 
 .feature-article {
   background-image: url("./assets/Capitol-dating-app-796x417.jpg");
-}
-
-.article-date {
-  display: none;
 }
 
 .side-article-one {
@@ -137,6 +133,7 @@ small a {
 
 .article-content {
   display: flex;
+  height: 100%;
   background-image: linear-gradient(to top, black, transparent);
   justify-content: flex-end;
   flex-direction: column;
@@ -427,7 +424,6 @@ small a {
 }
 
 .copyright {
-  line-height: 50px;
   height: 50px;
   background-color: #000;
   padding-bottom: 10px;
@@ -435,6 +431,14 @@ small a {
 
 .copyright span {
   color: #aaa;
+}
+
+.logo img {
+  width: 30px;
+}
+
+.stackpath-img {
+  width: 50px;
 }
 
 /* MEDIA Queries */
@@ -517,10 +521,6 @@ small a {
     grid-area: 1 / 1 / span 1 / span 1;
   }
 
-  .article-content {
-    height: 99%;
-  }
-
   /* LATEST NEWS */
 
   .lastest-news-section {
@@ -589,14 +589,59 @@ small a {
 
   /* FOOTER  */
 
-  .logo img {
-    width: 30px;
-  }
-
-  .stackpath-img {
-    width: 50px;
+  .copyright {
+    padding-top: 10px;
   }
 }
 
 @media only screen and (min-width: 1020px) {
+  .nav-bar-logo-box {
+    display: none;
+  }
+
+  .nav-bar {
+    display: block;
+  }
+
+  .top-nav-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .top-right-links {
+    display: block;
+  }
+
+  .bottom-nav-bar {
+    padding-top: 10px;
+  }
+
+  .content {
+    position: relative;
+  }
+
+  .logo-date-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .main-logo {
+    margin-left: 20px;
+    margin-top: -80px;
+  }
+
+  .article-date {
+    color: white;
+    width: 500px;
+    margin-top: -150px;
+    margin-left: 175px;
+  }
+
+  .feature-article .article-content {
+    background-image: linear-gradient(-20deg, black, transparent, #f42);
+  }
 }
