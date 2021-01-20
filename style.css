@@ -650,7 +650,7 @@ small a {
   }
 
   .feature-article .article-content {
-    background-image: linear-gradient(-20deg, black, transparent, #f42);
+    background-image: linear-gradient(to top left, black, transparent, #f42);
   }
 
   /* lastest News */
