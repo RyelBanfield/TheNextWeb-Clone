@@ -51,9 +51,12 @@ small a {
 }
 
 .section-title {
-  font-weight: 800;
+  font-weight: Bold;
+  text-decoration: none;
   color: rgb(255, 60, 0);
   margin: 15px 0;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .section-subtitle {
@@ -643,5 +646,43 @@ small a {
 
   .feature-article .article-content {
     background-image: linear-gradient(-20deg, black, transparent, #f42);
+  }
+
+  /* lastest News */
+
+  .lastest-news-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  /* lastest funding round */ 
+
+  .funding-articles-flex {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .latest-funding-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .section-subtitle {
+    display: inline;
+  }
+
+  .section-subtitle a {
+    margin: 5px;
+    font-weight: 900;
+  }
+  .section-subtitle :nth-child(2) {
+    border-left: 1px  solid #f42;
+    border-right: 1px solid #f42;
+  }
+
+  /* more articles */
+
+  .more-articles {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
