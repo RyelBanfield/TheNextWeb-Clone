@@ -502,6 +502,30 @@ small a {
   .fa-bars {
     display: none;
   }
+
+  /* feature articles */
+
+  .top-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .feature-article {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+
+  .article-content {
+    height: 99%;
+  }
+
+  .lastest-news-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .lastest-news-article {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 1020px) {
