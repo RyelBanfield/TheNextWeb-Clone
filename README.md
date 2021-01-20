@@ -8,7 +8,7 @@ This is the second Microverse collaborative project
 
 > This is the second Microverse collaborative project.
 
-![screenshot](./assests/SCREENSHOT.png)
+![screenshot](./assets/SCREENSHOT.png)
 
 Additional description about the project and its features.
 
