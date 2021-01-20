@@ -30,9 +30,9 @@ Additional description about the project and its features.
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/nganifaith)
+- Twitter: [@twitterhandle](https://twitter.com/Bright_ngani)
+- LinkedIn: [LinkedIn](https://linkedin.com/ngani-faith)
 
 ## Show your support
 
