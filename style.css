@@ -439,6 +439,27 @@ small a {
 /* MEDIA Queries */
 
 @media only screen and (min-width: 768px) {
+  .nav-bar {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .nav-bar-logo-box {
+    grid-area: span 2;
+  }
+
+  .top-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+
+  .bottom-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
 }
 
 @media only screen and (min-width: 1020px) {
