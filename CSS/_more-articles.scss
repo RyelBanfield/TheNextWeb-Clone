@@ -1,55 +1,60 @@
+@mixin imageBackground($minHeight, $backgroundSize) {
+  min-height: $minHeight;
+  background-size: $backgroundSize;
+}
+
 .article1 {
   background-image: url("/assets/Trump-Twitter-368x276.jpg");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article2 {
   background-image: url("/assets/Untitled-design-13-368x276.png");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article3 {
   background-image: url("/assets/Eye-strain-screen-time-hed-796x419.jpg");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article4 {
   background-image: url("/assets/1-copy-26-516x270.jpg");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article5 {
   background-image: url("/assets/Galaxy-hed-796x419.jpg");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article6 {
   background-image: url("/assets/featured-e1561584989913-537x270.jpg");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article7 {
   background-image: url("/assets/car-ev-tesla-bus-future-electric-car-cambridgeshire.jpg");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article8 {
   background-image: url("/assets/android-auto-language-ev-future-car-infotainment-car-play-carplay-android-phone-368x276.png");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article9 {
   background-image: url("/assets/WhatsApp-police-hed-513x270.jpg");
-  min-height: 300px;
-  background-size: cover;
+
+  @include imageBackground(300px, cover);
 }
 
 .article-title {
