@@ -54,3 +54,41 @@
   color: white;
   margin: 10px 0;
 }
+
+@media only screen and (min-width: 768px) {
+  .top-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .feature-article {
+    grid-area: 1 / 1 / span 1 / span 1;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .logo-date-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .main-logo {
+    margin-left: 20px;
+    margin-top: -80px;
+  }
+
+  .article-date {
+    color: white;
+    width: 500px;
+    margin-top: -150px;
+    margin-left: 175px;
+  }
+
+  .feature-article .article-content {
+    background-image: linear-gradient(to top left, black, transparent, #f42);
+  }
+}

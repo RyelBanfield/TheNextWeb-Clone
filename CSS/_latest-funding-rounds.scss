@@ -75,3 +75,38 @@
   margin-right: 5px;
   color: black;
 }
+
+@media only screen and (min-width: 768px) {
+  .funding-articles-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .funding-articles-flex {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .latest-funding-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .section-subtitle {
+    display: inline;
+  }
+
+  .section-subtitle a {
+    margin: 5px;
+    font-weight: 900;
+  }
+
+  .section-subtitle :nth-child(2) {
+    border-left: 1px solid #f42;
+    border-right: 1px solid #f42;
+  }
+}

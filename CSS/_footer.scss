@@ -54,3 +54,9 @@
 .stackpath-img {
   width: 50px;
 }
+
+@media only screen and (min-width: 768px) {
+  .copyright {
+    padding-top: 10px;
+  }
+}

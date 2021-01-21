@@ -18,3 +18,27 @@
   font-size: 16px;
   color: black;
 }
+
+@media only screen and (min-width: 768px) {
+  .lastest-news-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  .lastest-news-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lastest-news-article a img {
+    width: 100%;
+    height: 115px;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .lastest-news-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

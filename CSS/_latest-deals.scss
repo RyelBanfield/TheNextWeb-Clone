@@ -35,3 +35,59 @@
 .strike-through {
   text-decoration: line-through;
 }
+
+@media only screen and (min-width: 768px) {
+  .deals-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  .latest-deal-articles {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .deal-img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .discount {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 75px;
+    width: 75px;
+    background-image: url("./assets/deals-ribbon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #000;
+    z-index: 10;
+  }
+
+  .discount div {
+    position: relative;
+    transform: rotate(45deg);
+    font-size: 14px;
+    font-weight: bold;
+    left: 8px;
+    right: 5px;
+    text-align: center;
+    top: 25px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .deals-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .deal-img {
+    height: 150px;
+  }
+}

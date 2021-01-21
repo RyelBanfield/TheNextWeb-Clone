@@ -103,3 +103,27 @@
 .last-article-description > ul > li {
   border-bottom: 1px solid #ccc;
 }
+
+@media only screen and (min-width: 768px) {
+  .more-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .side-img {
+    top: 0;
+    right: 0;
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .more-articles {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .side-img {
+    height: 60px;
+  }
+}
