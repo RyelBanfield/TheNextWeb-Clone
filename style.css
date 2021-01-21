@@ -383,6 +383,10 @@ small a {
   margin-bottom: 20px;
 }
 
+.discount {
+  display: None;
+}
+
 .latest-deal-articles {
   display: flex;
   margin-bottom: 5px;
@@ -597,11 +601,40 @@ small a {
   .latest-deal-articles {
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
   .deal-img {
     width: 100%;
     height: 150px;
+  }
+
+  .discount {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 75px;
+    width: 75px; 
+    background-image: url("./assets/deals-ribbon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #000;
+    z-index: 10;
+  }
+
+  .discount div {
+    position: relative;
+    transform: rotate(45deg);
+    font-size: 14px;
+    font-weight: bold;
+    left: 8px;
+    right: 5px;
+    text-align: center;
+    top: 25px;
+    width: 100%;
+
   }
 
   /* FOOTER  */

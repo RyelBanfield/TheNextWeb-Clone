@@ -1,1115 +1,855 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TheNextWeb-Clone</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,400&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TheNextWeb-Clone</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
 
-  <body>
-    <header class="main-header">
-      <nav class="nav-bar">
-        <div class="nav-bar-logo-box">
-          <a href="#">
-            <img class="nav-logo" src="./assets/tnw.svg" alt="nav bar logo" />
-          </a>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,100;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="nav-bar">
+      <div class="nav-bar-logo-box">
+        <a href="#">
+          <img class="nav-logo" src="./assets/tnw.svg" alt="nav bar logo" />
+        </a>
+      </div>
+      <div class="top-nav-bar">
+        <div class="top-left-links">
+          <a href="#">News</a>
+          <a href="#">Events</a>
+          <a href="#">Business</a>
+          <a href="#">AMAs</a>
+          <a href="#">Spaces</a>
+          <a href="#">Terms & Conditions</a>
         </div>
-        <div class="top-nav-bar">
-          <div class="top-left-links">
-            <a href="#">News</a>
-            <a href="#">Events</a>
-            <a href="#">Business</a>
-            <a href="#">AMAs</a>
-            <a href="#">Spaces</a>
-            <a href="#">Terms & Conditions</a>
-          </div>
-          <div class="top-right-links">
-            <a href="#">About</a>
-            <a href="#">Advertise</a>
-            <a href="#">Jobs</a>
-            <a href="#">Contact</a>
+        <div class="top-right-links">
+          <a href="#">About</a>
+          <a href="#">Advertise</a>
+          <a href="#">Jobs</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="bottom-nav-wrapper">
+        <div class="bottom-nav-bar">
+          <div class="bottom-links">
+            <a href="#">LATEST</a>
+            <a href="#">HARD FORK</a>
+            <a href="#">PLUGGED</a>
+            <a href="#">README</a>
+            <a href="#">GROWTH QUARTERS</a>
           </div>
         </div>
-        <div class="bottom-nav-wrapper">
-          <div class="bottom-nav-bar">
-            <div class="bottom-links">
-              <a href="#">LATEST</a>
-              <a href="#">HARD FORK</a>
-              <a href="#">PLUGGED</a>
-              <a href="#">README</a>
-              <a href="#">GROWTH QUARTERS</a>
-            </div>
-          </div>
-          <div class="nav-bar-icons">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-bars"></i>
-          </div>
+        <div class="nav-bar-icons">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-bars"></i>
         </div>
-      </nav>
-    </header>
-    <main class="main-section">
-      <section class="top-section">
-        <div class="feature-article content">
-          <a href="#">
-            <div class="logo-date-wrapper">
-              <img src="./assets/tnw.svg" alt="" class="main-logo" />
-              <p class="article-date">Monday - January 18, 2021</p>
-            </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main-section">
+    <section class="top-section">
+      <div class="feature-article content">
+        <a href="#">
+          <div class="logo-date-wrapper">
+            <img src="./assets/tnw.svg" alt="" class="main-logo" />
+            <p class="article-date">Monday - January 18, 2021</p>
+          </div>
+          <div class="article-content">
+            <h1 class="article-title">
+              The Capitol rioters are getting banned from dating apps
+            </h1>
+            <small class="article-author">By Ivan Mehta <i class="far fa-clock"></i> 1 hour ago
+              <i class="fas fa-share-alt"></i> 7
+            </small>
+          </div>
+        </a>
+      </div>
+      <aside class="side-articles">
+        <a href="#">
+          <div class="side-article-one content">
             <div class="article-content">
+              <h3 class="article-header">INSIGHT</h3>
               <h1 class="article-title">
-                The Capitol rioters are getting banned from dating apps
+                Gas emitted by merging galaxies is stopping stars from forming
               </h1>
-              <small class="article-author"
-                >By Ivan Mehta <i class="far fa-clock"></i> 1 hour ago
-                <i class="fas fa-share-alt"></i> 7
+              <small class="article-author">by The Conversation <i class="far fa-clock"></i> 1 hour ago
+                <i class="fas fa-share-alt"></i> 9
               </small>
             </div>
-          </a>
+          </div>
+        </a>
+        <a href="#">
+          <div class="side-article-two content">
+            <div class="article-content">
+              <h3 class="article-header">GEAR</h3>
+              <h1 class="article-title">
+                How to manage your screen time during the lockdown, according
+                to science
+              </h1>
+              <small class="article-author">by The Conversation <i class="far fa-clock"></i> 1 hour ago
+                <i class="fas fa-share-alt"></i> 9
+              </small>
+            </div>
+          </div>
+        </a>
+      </aside>
+    </section>
+    <section class="lastest-news">
+      <h1 class="section-title">Lastest News ></h1>
+      <div class="div lastest-news-section">
+        <article class="lastest-news-article">
+          <a href="#">
+            <img src="./assets/Capitol-dating-app-796x417.jpg" alt="Capital dating app" class="lastest-news-img" /></a>
+          <div>
+            <p class="img-caption">
+              <a href="#">The Capitol rioters are getting banned from dating apps</a>
+            </p>
+            <small><a href="#"> Ivan Mehta</a>. 3 hours ago</small>
+          </div>
+        </article>
+
+        <article class="lastest-news-article">
+          <a href="#"><img src="./assets/james-harrison-vpOeXr5wmR4-unsplash-480x270.jpg" alt="James harrisson"
+              class="lastest-news-img" /></a>
+          <div>
+            <p class="img-caption">
+              <a href="#">Azure is one of the largest market leaders, learn cloud
+                computing with this $39 training</a>
+            </p>
+            <small><a href="#">TNW DEALS</a> 16 hours ago</small>
+          </div>
+        </article>
+
+        <article class="lastest-news-article">
+          <a href="#"><img src="./assets/Galaxy-hed-368x276.jpg" alt="Gas emmited from the galaxy"
+              class="lastest-news-img" /></a>
+          <div>
+            <p class="img-caption">
+              <a href="#">Gas emitted by merging galaxies is stopping stars from
+                forming</a>
+            </p>
+            <small><a href="#"> The Conversation</a> 16 hours ago</small>
+          </div>
+        </article>
+        <article class="lastest-news-article">
+          <a href="#"><img src="./assets/Eye-strain-screen-time-hed-368x276.jpg" alt="Lady infront of the screen"
+              class="lastest-news-img" /></a>
+          <div>
+            <p class="img-caption">
+              <a href="#">How to manage your screen time during the lockdown, according
+                to science</a>
+            </p>
+            <small><a href="#">The Conversation</a> 23 hours ago</small>
+          </div>
+        </article>
+        <article class="lastest-news-article">
+          <a href="#"><img src="./assets/Sleep-hed-796x419.png" alt="Two ladies in sleep attires"
+              class="lastest-news-img" /></a>
+          <div>
+            <p class="img-caption">
+              <a href="#">How sleep trackers can actually ruin your sleep</a>
+            </p>
+            <small><a href="#">The Conversion</a> 1 day ago</small>
+          </div>
+        </article>
+        <article class="lastest-news-article">
+          <a href="#"><img src="./assets/Logic-Pro-Lifestyle-540x270.jpeg" alt="Person infront of a logic screen"
+              class="lastest-news-img" /></a>
+          <div>
+            <p class="img-caption">
+              <a href="#">DIY music production software like Logic Pro X is now the
+                mainstream. Here’s what you need to know</a>
+            </p>
+            <small><a href="#">TNW Deals</a> 1 day ago</small>
+          </div>
+        </article>
+        <article class="lastest-news-article">
+          <a href="#"><img src="./assets/1-copy-26-516x270.jpg" alt="Two men infront of an excel board"
+              class="lastest-news-img" /></a>
+          <div>
+            <p class="img-caption">
+              <a href="#">coding, you can now solve your AI problems with Excel
+              </a>
+            </p>
+            <small><a href="#">Ben Dickson</a> 2 days ago</small>
+          </div>
+        </article>
+        <article class="lastest-news-article">
+          <a href="#"><img src="./assets/WhatsApp-police-hed-513x270.jpg" alt="Polica hat with a WhatsApp sign"
+              class="lastest-news-img" /></a>
+          <div>
+            <p class="img-caption">
+              <a href="#">WhatsApp delays it privacy policy update by three months —
+                but what's the point?</a>
+            </p>
+            <small><a href="#">Ivan Mehta</a> 2 days ago</small>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="lastest-funding-rounds">
+      <div class="latest-funding-header">
+        <h1 class="section-title">Latest funding rounds on Index.co ></h1>
+        <div class="section-subtitle">
+          <a href="#">Add info</a>
+          <a href="#">Get updates by email</a>
+          <a href="#">See more</a>
         </div>
-        <aside class="side-articles">
-          <a href="#">
-            <div class="side-article-one content">
-              <div class="article-content">
-                <h3 class="article-header">INSIGHT</h3>
-                <h1 class="article-title">
-                  Gas emitted by merging galaxies is stopping stars from forming
-                </h1>
-                <small class="article-author"
-                  >by The Conversation <i class="far fa-clock"></i> 1 hour ago
-                  <i class="fas fa-share-alt"></i> 9
-                </small>
-              </div>
+      </div>
+      <div class="funding-articles-flex">
+        <article class="latest-funding-article">
+          <img src="./assets/image3.jpg" alt="BharatPe Logo" class="latest-funding-img" />
+          <h4 class="latest-funding-company-name">BharatPe</h4>
+          <div class="funding-desc">
+            <h4 class="latest-funding-amount">$2B</h4>
+            <h5 class="latest-funding-cat">DEBT FINANCING</h5>
+          </div>
+          <div class="latest-funding-description">
+            <div class="lfd-1">
+              <span class="material-icons"> local_offer </span>
+              <span>Payments, +3</span>
             </div>
-          </a>
-          <a href="#">
-            <div class="side-article-two content">
-              <div class="article-content">
-                <h3 class="article-header">GEAR</h3>
-                <h1 class="article-title">
-                  How to manage your screen time during the lockdown, according
-                  to science
-                </h1>
-                <small class="article-author"
-                  >by The Conversation <i class="far fa-clock"></i> 1 hour ago
-                  <i class="fas fa-share-alt"></i> 9
-                </small>
-              </div>
+            <div class="lfd-2">
+              <span class="material-icons"> business_center </span>
+              <span>ICICI Bank, +2</span>
             </div>
-          </a>
-        </aside>
+
+            <p>
+              Exclusive: BharatPe raises Rs 200 Cr debt from ICICI, Alteria
+              and Innoven<small>on Entrackr</small>
+            </p>
+          </div>
+        </article>
+        <article class="latest-funding-article">
+          <img src="./assets/image2.jpg" alt="Oqton Logo" class="latest-funding-img" />
+          <h4 class="latest-funding-company-name">Oqton</h4>
+          <div class="funding-desc">
+            <h4 class="latest-funding-amount">$40M</h4>
+            <h5 class="latest-funding-cat">SERIES A</h5>
+          </div>
+          <div class="latest-funding-description">
+            <div class="lfd-1">
+              <span class="material-icons"> local_offer </span>
+              <span>Technology, +3</span>
+            </div>
+            <div class="lfd-2">
+              <span class="material-icons"> business_center </span>
+              <span>PMV, +7</span>
+            </div>
+
+            <p>
+              Oqton raises $40 million to apply AI to additive
+              manufacturing<small>on VentureBeat</small>
+            </p>
+          </div>
+        </article>
+        <article class="latest-funding-article">
+          <img src="./assets/image1.jpg" alt="Swimm Logo" class="latest-funding-img" />
+          <h4 class="latest-funding-company-name">Swimm</h4>
+          <div class="funding-desc">
+            <h4 class="latest-funding-amount">$5.7M</h4>
+            <h5 class="latest-funding-cat">SEED FUND</h5>
+          </div>
+          <div class="latest-funding-description">
+            <div class="lfd-1">
+              <span class="material-icons"> local_offer </span>
+              <span>Information Technology, +2</span>
+            </div>
+            <div class="lfd-2">
+              <span class="material-icons"> business_center </span>
+              <span>Pitango Venture Capital</span>
+            </div>
+
+            <p>
+              Swimm raises $5.7M in seed funding round and launches its unique
+              code-sharing platform<small>on SiliconANGLE</small>
+            </p>
+          </div>
+        </article>
+        <article class="latest-funding-article">
+          <img src="./assets/image.jpg" alt="Harness Logo" class="latest-funding-img" />
+          <h4 class="latest-funding-company-name">Harness</h4>
+          <div class="funding-desc">
+            <h4 class="latest-funding-amount">$85M</h4>
+            <h5 class="latest-funding-cat">Venture Capital</h5>
+          </div>
+          <div class="latest-funding-description">
+            <div class="lfd-1">
+              <span class="material-icons"> local_offer </span>
+              <span>Information Technology, +2</span>
+            </div>
+            <div class="lfd-2">
+              <span class="material-icons"> business_center </span>
+              <span>Battery Ventures, +6</span>
+            </div>
+
+            <p>
+              Harness becomes $1.7B unicorn after raising $85M for its
+              software delivery platform<small>on SiliconANGLE</small>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="more-articles">
+      <section class="bottom-articles">
+        <h1 class="section-title">Hard Fork ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article1 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">Twitter shares fall 7% in pre-market trading after Trump's
+                removal</a>
+            </p>
+            <small><a href="#">Ivan Mahta</a> 7 days ago</small>
+          </div>
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
+              <p>
+                <a href="#">Winklevoss comes out of meditation to witness Bitcoin's
+                  record high</a>
+              </p>
+            </div>
+            <img src="./assets/winklevossbitcoin.jpg" alt="Winkle VOss Bitcoin" class="side-img" />
+          </div>
+          <div class="last-article-description">
+            <ul>
+              <li>
+                <a href="#">CD Projekt Rekt: Cyberpunk 2077 tanks studio's share
+                  pricenearly 50%</a>
+              </li>
+              <li>
+                <a href="#">CD Projekt stock down 20% since Cyberpunk reviews hit the
+                  internet</a>
+              </li>
+              <li>
+                <a href="#">Airbnb to be bigger than eBay after its long-awaited IPO</a>
+              </li>
+              <li>
+                <a href="#">Tesla just set a new record high. Now it wants to dump $5B
+                  in stock</a>
+              </li>
+              <li>
+                <a href="#">Meanwhile, esports and gaming stocks are pumping to record
+                  highs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <section class="lastest-news">
-        <h1 class="section-title">Lastest News ></h1>
-        <div class="div lastest-news-section">
-          <article class="lastest-news-article">
-            <a href="#">
-              <img
-                src="./assets/Capitol-dating-app-796x417.jpg"
-                alt="Capital dating app"
-                class="lastest-news-img"
-            /></a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >The Capitol rioters are getting banned from dating apps</a
-                >
+      <section class="bottom-articles">
+        <h1 class="section-title">Apps ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article2 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">Android Auto is reading notifications in the wrong language —
+                and Google's solution is terrible</a>
+            </p>
+            <small><a href="#">Matthew Beedham</a> 4 days ago</small>
+          </div>
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
+              <p>
+                <a href="#">Jack Dorsey: "I do not celebrate" Trump's Twitter ban</a>
               </p>
-              <small><a href="#"> Ivan Mehta</a>. 3 hours ago</small>
             </div>
-          </article>
-
-          <article class="lastest-news-article">
-            <a href="#"
-              ><img
-                src="./assets/james-harrison-vpOeXr5wmR4-unsplash-480x270.jpg"
-                alt="James harrisson"
-                class="lastest-news-img"
-            /></a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >Azure is one of the largest market leaders, learn cloud
-                  computing with this $39 training</a
-                >
-              </p>
-              <small><a href="#">TNW DEALS</a> 16 hours ago</small>
-            </div>
-          </article>
-
-          <article class="lastest-news-article">
-            <a href="#"
-              ><img
-                src="./assets/Galaxy-hed-368x276.jpg"
-                alt="Gas emmited from the galaxy"
-                class="lastest-news-img"
-            /></a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >Gas emitted by merging galaxies is stopping stars from
-                  forming</a
-                >
-              </p>
-              <small><a href="#"> The Conversation</a> 16 hours ago</small>
-            </div>
-          </article>
-          <article class="lastest-news-article">
-            <a href="#"
-              ><img
-                src="./assets/Eye-strain-screen-time-hed-368x276.jpg"
-                alt="Lady infront of the screen"
-                class="lastest-news-img"
-            /></a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >How to manage your screen time during the lockdown, according
-                  to science</a
-                >
-              </p>
-              <small><a href="#">The Conversation</a> 23 hours ago</small>
-            </div>
-          </article>
-          <article class="lastest-news-article">
-            <a href="#"
-              ><img
-                src="./assets/Sleep-hed-796x419.png"
-                alt="Two ladies in sleep attires"
-                class="lastest-news-img"
-            /></a>
-            <div>
-              <p class="img-caption">
+            <img src="./assets/Trump-Twitter.jpg" alt="Trump on Twitter" class="side-img" />
+          </div>
+          <div class="last-article-description">
+            <ul>
+              <li>
+                <a href="#">Oh, great — Uber and Lyft are actually increasing car
+                  ownership in US cities</a>
+              </li>
+              <li>
+                <a href="#">Donald Trump has been permanently banned from Twitter</a>
+              </li>
+              <li>
+                <a href="#">All I want for Christmas is a length-based search option on
+                  Netflix</a>
+              </li>
+              <li>
+                <a href="#">Can Apple’s rumored search engine ever compete with
+                  Google?</a>
+              </li>
+              <li>
+                <a href="#">Google's Android Auto finally has a third-party app for
+                  navigation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="bottom-articles">
+        <h1 class="section-title">GEAR ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article3 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">How to manage your screen time during the lockdown, according
+                to science</a>
+            </p>
+            <small><a href="#">The Conversation</a> 1 day ago</small>
+          </div>
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
+              <p>
                 <a href="#">How sleep trackers can actually ruin your sleep</a>
               </p>
-              <small><a href="#">The Conversion</a> 1 day ago</small>
             </div>
-          </article>
-          <article class="lastest-news-article">
-            <a href="#"
-              ><img
-                src="./assets/Logic-Pro-Lifestyle-540x270.jpeg"
-                alt="Person infront of a logic screen"
-                class="lastest-news-img"
-            /></a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >DIY music production software like Logic Pro X is now the
-                  mainstream. Here’s what you need to know</a
-                >
-              </p>
-              <small><a href="#">TNW Deals</a> 1 day ago</small>
-            </div>
-          </article>
-          <article class="lastest-news-article">
-            <a href="#"
-              ><img
-                src="./assets/1-copy-26-516x270.jpg"
-                alt="Two men infront of an excel board"
-                class="lastest-news-img"
-            /></a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >coding, you can now solve your AI problems with Excel
-                </a>
-              </p>
-              <small><a href="#">Ben Dickson</a> 2 days ago</small>
-            </div>
-          </article>
-          <article class="lastest-news-article">
-            <a href="#"
-              ><img
-                src="./assets/WhatsApp-police-hed-513x270.jpg"
-                alt="Polica hat with a WhatsApp sign"
-                class="lastest-news-img"
-            /></a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >WhatsApp delays it privacy policy update by three months —
-                  but what's the point?</a
-                >
-              </p>
-              <small><a href="#">Ivan Mehta</a> 2 days ago</small>
-            </div>
-          </article>
+            <img src="./assets/Sleep-hed-513x270.png" alt="Ladies with Sleep attires" class="side-img" />
+          </div>
+          <div class="last-article-description">
+            <ul>
+              <li>
+                <a href="#">Report: Apple is building foldable iPhone prototypes</a>
+              </li>
+              <li>
+                <a href="#">The Galaxy Buds Pro are Samsung's answer to the AirPods
+                  Pro</a>
+              </li>
+              <li>
+                <a href="#">Samsung reveals the Galaxy S21 series, $200 cheaper this
+                  time</a>
+              </li>
+              <li>
+                <a href="#">HTC is apparently still making phones, announces the Desire
+                  21 Pro 5G</a>
+              </li>
+              <li>
+                <a href="#">LG confirms its shape-shifting "rollable" phone arrives
+                  this year</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section class="lastest-funding-rounds">
-        <div class="latest-funding-header">
-          <h1 class="section-title">Latest funding rounds on Index.co ></h1>
-          <div class="section-subtitle">
-            <a href="#">Add info</a>
-            <a href="#">Get updates by email</a>
-            <a href="#">See more</a>
+      <section class="bottom-articles">
+        <h1 class="section-title">TECH ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article4 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">You won't need wing mirrors in the US any more — if you're a
+                self-driving car</a>
+            </p>
+            <small><a href="#">Matthew been</a> 4 hours ago</small>
           </div>
-        </div>
-        <div class="funding-articles-flex">
-          <article class="latest-funding-article">
-            <img
-              src="./assets/image3.jpg"
-              alt="BharatPe Logo"
-              class="latest-funding-img"
-            />
-            <h4 class="latest-funding-company-name">BharatPe</h4>
-            <div class="funding-desc">
-              <h4 class="latest-funding-amount">$2B</h4>
-              <h5 class="latest-funding-cat">DEBT FINANCING</h5>
-            </div>
-            <div class="latest-funding-description">
-              <div class="lfd-1">
-                <span class="material-icons"> local_offer </span>
-                <span>Payments, +3</span>
-              </div>
-              <div class="lfd-2">
-                <span class="material-icons"> business_center </span>
-                <span>ICICI Bank, +2</span>
-              </div>
-
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
               <p>
-                Exclusive: BharatPe raises Rs 200 Cr debt from ICICI, Alteria
-                and Innoven<small>on Entrackr</small>
+                <a href="#">Rolls-Royce boldly skips hybrids and goes all-electric with
+                  new EV lineup</a>
               </p>
             </div>
-          </article>
-          <article class="latest-funding-article">
-            <img
-              src="./assets/image2.jpg"
-              alt="Oqton Logo"
-              class="latest-funding-img"
-            />
-            <h4 class="latest-funding-company-name">Oqton</h4>
-            <div class="funding-desc">
-              <h4 class="latest-funding-amount">$40M</h4>
-              <h5 class="latest-funding-cat">SERIES A</h5>
-            </div>
-            <div class="latest-funding-description">
-              <div class="lfd-1">
-                <span class="material-icons"> local_offer </span>
-                <span>Technology, +3</span>
-              </div>
-              <div class="lfd-2">
-                <span class="material-icons"> business_center </span>
-                <span>PMV, +7</span>
-              </div>
-
-              <p>
-                Oqton raises $40 million to apply AI to additive
-                manufacturing<small>on VentureBeat</small>
-              </p>
-            </div>
-          </article>
-          <article class="latest-funding-article">
-            <img
-              src="./assets/image1.jpg"
-              alt="Swimm Logo"
-              class="latest-funding-img"
-            />
-            <h4 class="latest-funding-company-name">Swimm</h4>
-            <div class="funding-desc">
-              <h4 class="latest-funding-amount">$5.7M</h4>
-              <h5 class="latest-funding-cat">SEED FUND</h5>
-            </div>
-            <div class="latest-funding-description">
-              <div class="lfd-1">
-                <span class="material-icons"> local_offer </span>
-                <span>Information Technology, +2</span>
-              </div>
-              <div class="lfd-2">
-                <span class="material-icons"> business_center </span>
-                <span>Pitango Venture Capital</span>
-              </div>
-
-              <p>
-                Swimm raises $5.7M in seed funding round and launches its unique
-                code-sharing platform<small>on SiliconANGLE</small>
-              </p>
-            </div>
-          </article>
-          <article class="latest-funding-article">
-            <img
-              src="./assets/image.jpg"
-              alt="Harness Logo"
-              class="latest-funding-img"
-            />
-            <h4 class="latest-funding-company-name">Harness</h4>
-            <div class="funding-desc">
-              <h4 class="latest-funding-amount">$85M</h4>
-              <h5 class="latest-funding-cat">Venture Capital</h5>
-            </div>
-            <div class="latest-funding-description">
-              <div class="lfd-1">
-                <span class="material-icons"> local_offer </span>
-                <span>Information Technology, +2</span>
-              </div>
-              <div class="lfd-2">
-                <span class="material-icons"> business_center </span>
-                <span>Battery Ventures, +6</span>
-              </div>
-
-              <p>
-                Harness becomes $1.7B unicorn after raising $85M for its
-                software delivery platform<small>on SiliconANGLE</small>
-              </p>
-            </div>
-          </article>
+            <img src="./assets/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg"
+              alt="Picture of car" class="side-img" />
+          </div>
+          <div class="last-article-description">
+            <ul>
+              <li>
+                <a href="#">What is semi-supervised machine learning?</a>
+              </li>
+              <li>
+                <a href="#">You won't need wing mirrors in the US any more — if you're
+                  a self-driving car</a>
+              </li>
+              <li>
+                <a href="#">Forget coding, you can now solve your AI problems with
+                  Excel</a>
+              </li>
+              <li>
+                <a href="#">Scientists figured out how to turn black holes into power
+                  sources</a>
+              </li>
+              <li>
+                <a href="#">How to manipulate date and time in JavaScript</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section class="more-articles">
-        <section class="bottom-articles">
-          <h1 class="section-title">Hard Fork ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article1 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#"
-                  >Twitter shares fall 7% in pre-market trading after Trump's
-                  removal</a
-                >
-              </p>
-              <small><a href="#">Ivan Mahta</a> 7 days ago</small>
-            </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >Winklevoss comes out of meditation to witness Bitcoin's
-                    record high</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/winklevossbitcoin.jpg"
-                alt="Winkle VOss Bitcoin"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li>
-                  <a href="#"
-                    >CD Projekt Rekt: Cyberpunk 2077 tanks studio's share
-                    pricenearly 50%</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >CD Projekt stock down 20% since Cyberpunk reviews hit the
-                    internet</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Airbnb to be bigger than eBay after its long-awaited IPO</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Tesla just set a new record high. Now it wants to dump $5B
-                    in stock</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Meanwhile, esports and gaming stocks are pumping to record
-                    highs</a
-                  >
-                </li>
-              </ul>
-            </div>
+      <section class="bottom-articles">
+        <h1 class="section-title">Creativity ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article5 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">How global crisis affects design</a>
+            </p>
+            <small><a href="#">Rebecca Bellan</a> 20 days ago</small>
           </div>
-        </section>
-        <section class="bottom-articles">
-          <h1 class="section-title">Apps ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article2 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#"
-                  >Android Auto is reading notifications in the wrong language —
-                  and Google's solution is terrible</a
-                >
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
+              <p>
+                <a href="#">Graphic design apps are now as fundamental as Excel —
+                  here's how non-designers get up to speed</a>
               </p>
-              <small><a href="#">Matthew Beedham</a> 4 days ago</small>
             </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >Jack Dorsey: "I do not celebrate" Trump's Twitter ban</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/Trump-Twitter.jpg"
-                alt="Trump on Twitter"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li>
-                  <a href="#"
-                    >Oh, great — Uber and Lyft are actually increasing car
-                    ownership in US cities</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Donald Trump has been permanently banned from Twitter</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >All I want for Christmas is a length-based search option on
-                    Netflix</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Can Apple’s rumored search engine ever compete with
-                    Google?</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Google's Android Auto finally has a third-party app for
-                    navigation</a
-                  >
-                </li>
-              </ul>
-            </div>
+            <img src="./assets/Untitled-design-13.jpg" alt="Two people with one holding a laptop" class="side-img" />
           </div>
-        </section>
-        <section class="bottom-articles">
-          <h1 class="section-title">GEAR ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article3 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#"
-                  >How to manage your screen time during the lockdown, according
-                  to science</a
-                >
-              </p>
-              <small><a href="#">The Conversation</a> 1 day ago</small>
-            </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >How sleep trackers can actually ruin your sleep</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/Sleep-hed-513x270.png"
-                alt="Ladies with Sleep attires"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li>
-                  <a href="#"
-                    >Report: Apple is building foldable iPhone prototypes</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >The Galaxy Buds Pro are Samsung's answer to the AirPods
-                    Pro</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Samsung reveals the Galaxy S21 series, $200 cheaper this
-                    time</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >HTC is apparently still making phones, announces the Desire
-                    21 Pro 5G</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >LG confirms its shape-shifting "rollable" phone arrives
-                    this year</a
-                  >
-                </li>
-              </ul>
-            </div>
+          <div class="last-article-description">
+            <ul>
+              <li>
+                <a href="#">This real-world multiplayer game lets you spend other
+                  people’s money — really</a>
+              </li>
+              <li>
+                <a href="#">Warzone is infinitely more fun without vehicles (even
+                  though it's just a bug)</a>
+              </li>
+              <li>
+                <a href="#">The Winamp Skin Museum is a beautiful homage to an iconic
+                  piece of software</a>
+              </li>
+              <li>
+                <a href="#">Why skin tone modifiers don't work for 🤝, explained by an
+                  emoji historian</a>
+              </li>
+              <li>
+                <a href="#">Why you need Design Thinking and Proofs of Concept to level
+                  up your business</a>
+              </li>
+            </ul>
           </div>
-        </section>
-        <section class="bottom-articles">
-          <h1 class="section-title">TECH ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article4 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#"
-                  >You won't need wing mirrors in the US any more — if you're a
-                  self-driving car</a
-                >
-              </p>
-              <small><a href="#">Matthew been</a> 4 hours ago</small>
-            </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >Rolls-Royce boldly skips hybrids and goes all-electric with
-                    new EV lineup</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/ev-phantom-rols-royce-silent-shadow-car-future-electric-vehicle-796x449.jpg"
-                alt="Picture of car"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li>
-                  <a href="#">What is semi-supervised machine learning?</a>
-                </li>
-                <li>
-                  <a href="#"
-                    >You won't need wing mirrors in the US any more — if you're
-                    a self-driving car</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Forget coding, you can now solve your AI problems with
-                    Excel</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Scientists figured out how to turn black holes into power
-                    sources</a
-                  >
-                </li>
-                <li>
-                  <a href="#">How to manipulate date and time in JavaScript</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="bottom-articles">
-          <h1 class="section-title">Creativity ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article5 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#">How global crisis affects design</a>
-              </p>
-              <small><a href="#">Rebecca Bellan</a> 20 days ago</small>
-            </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >Graphic design apps are now as fundamental as Excel —
-                    here's how non-designers get up to speed</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/Untitled-design-13.jpg"
-                alt="Two people with one holding a laptop"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li>
-                  <a href="#"
-                    >This real-world multiplayer game lets you spend other
-                    people’s money — really</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Warzone is infinitely more fun without vehicles (even
-                    though it's just a bug)</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >The Winamp Skin Museum is a beautiful homage to an iconic
-                    piece of software</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Why skin tone modifiers don't work for 🤝, explained by an
-                    emoji historian</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Why you need Design Thinking and Proofs of Concept to level
-                    up your business</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="bottom-articles">
-          <h1 class="section-title">PODIUM ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article6 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#"
-                  >2021 will be the year open source projects overcome their
-                  diversity problems</a
-                >
-              </p>
-              <small><a href="#">Christopher Ferris</a> 21 days ago</small>
-            </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >Google still abuses its search monopoly in the EU —
-                    regulators wake up!</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/google-logo-podium.png"
-                alt="the google logo"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li>
-                  <a href="#"
-                    >Mixed reality is perfect for our innate multitasking
-                    habits</a
-                  >
-                </li>
-                <li>
-                  <a href="#">6 big data blunders businesses should avoid</a>
-                </li>
-                <li>
-                  <a href="#"
-                    >The AI landscape is shifting from 'data' to 'knowledge.'
-                    Here's why that matters</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Disruptive fintech is our best bet to economic recovery
-                    post COVID-19</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Tech in Latin America: An entrepreneur’s guide to June’s
-                    startup news</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="bottom-articles">
-          <h1 class="section-title">Insights ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article7 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#"
-                  >Gas emitted by merging galaxies is stopping stars from
-                  forming</a
-                >
-              </p>
-              <small><a href="#">The Concersation</a> 19 hours ago</small>
-            </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >Sell for scrap or split for parts? What to do with your old
-                    car</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/1-copy-26-516x270.jpg"
-                alt="old car"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li>
-                  <a href="#"
-                    >Here's how to simplify your app (and get more customers)</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Gas emitted by merging galaxies is stopping stars from
-                    forming</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Electric vehicles can now use bus lanes in the UK — and
-                    cyclists aren’t happy</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Week-by-week breakdown of my $15M virtual fundraising
-                    journey in 2020</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >What this simple TikTok prank taught me about work</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="bottom-articles">
-          <h1 class="section-title">Launch ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article8 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#"
-                  >About time! Toyota finally announces an all-electric
-                  vehicle</a
-                >
-              </p>
-              <small><a href="#">Matthew Beedham</a> 5 Weeks ago</small>
-            </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >I’ve fallen for the electric Hummer and I hate myself for
-                    it</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg"
-                alt="the google logo"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li>
-                  <a href="#"
-                    >Amazon's electric delivery vans made by Rivian are here,
-                    and they're pretty cute</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >This adorable little electric car is made of trash</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Hyundai's first fuel cell-powered trucks arrive in
-                    Switzerland — bye bye, diesel</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Lynk & Co.'s car sharing-owning scheme will never cost more
-                    than €500 a month</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Lucid unveils the Air, its luxury EV with up to 517-miles
-                    of range costing as much as $169K</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section class="bottom-articles">
-          <h1 class="section-title">Distract ></h1>
-          <div class="article-wrapper">
-            <div class="main-article article9 article-content">
-              <h3 class="article-header">Most Popular</h3>
-              <p class="article-title">
-                <a href="#"
-                  >Games to play on date night: Rule the galaxy together in
-                  Stellaris</a
-                >
-              </p>
-              <small><a href="#">Tristan Greene</a> 5 Days ago</small>
-            </div>
-            <div class="sub-article">
-              <div class="side-description">
-                <h2 class="article-title">LASTEST</h2>
-                <p>
-                  <a href="#"
-                    >We need to make remote meetings more boring in 2021</a
-                  >
-                </p>
-              </div>
-              <img
-                src="./assets/boring-zoom-meeting-gq.png"
-                alt="Zoom meeting image"
-                class="side-img"
-              />
-            </div>
-            <div class="last-article-description">
-              <ul>
-                <li><a href="#">The podcasts that got us through 2020</a></li>
-                <li>
-                  <a href="#"
-                    >How Netflix shapes mainstream culture, explained by data</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Christmas is better with Tom Vasel’s YouTube board game
-                    reviews</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >How to start playing tabletop RPGs like D&D and Cyberpunk
-                    2020</a
-                  >
-                </li>
-                <li>
-                  <a href="#"
-                    >Watching people pretend to be vampires is what got me
-                    through 2020</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section class="latest-deals">
-        <div class="deals-headers">
-          <h1 class="section-title">Latest Deals ></h1>
-          <div class="section-subtitle">
-            <a href="#">See all Deals</a>
-          </div>
-        </div>
-        <div class="deals-wrapper">
-          <article class="latest-deal-articles">
-            <a href="#">
-              <img
-                src="./assets/sale_18296_primary_image.jpg"
-                alt="Sale Img 1"
-                class="deal-img"
-              />
-            </a>
-            <div>
-              <p class="img-caption">
-                <a href="#">The Ultimate Logic Pro X Music Production Bundle</a>
-              </p>
-              <small><span class="strike-through">$690</span> $29</small>
-            </div>
-          </article>
-          <article class="latest-deal-articles">
-            <a href="#">
-              <img
-                src="./assets/sale_26801_primary_image.jpg"
-                alt="Sale Img 2"
-                class="deal-img"
-              />
-            </a>
-            <div>
-              <p class="img-caption">
-                <a href="#">The 2021 All-in-One Data Scientist Mega Bundle</a>
-              </p>
-              <small><span class="strike-through">$6000</span> $39.99</small>
-            </div>
-          </article>
-          <article class="latest-deal-articles">
-            <a href="#">
-              <img
-                src="./assets/sale_28088_primary_image.jpg"
-                alt="Sale Img 3"
-                class="deal-img"
-              />
-            </a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >The Ultimate 2021 White Hat Hacker Certification Bundle</a
-                >
-              </p>
-              <small><span class="strike-through">$1345</span> $39.90</small>
-            </div>
-          </article>
-          <article class="latest-deal-articles">
-            <a href="#">
-              <img
-                src="./assets/sale_163163_primary_image.jpg"
-                alt="Sale Img 4"
-                class="deal-img"
-              />
-            </a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >Starchive 1TB Cloud Storage: Lifetime Subscription</a
-                >
-              </p>
-              <small><span class="strike-through">$1530</span> $96.99</small>
-            </div>
-          </article>
-          <article class="latest-deal-articles">
-            <a href="#">
-              <img
-                src="./assets/sale_162647_primary_image.jpg"
-                alt="Sale Img 5"
-                class="deal-img"
-              />
-            </a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >The Premium 2021 Project & Quality Management Certification
-                  Bundle</a
-                >
-              </p>
-              <small><span class="strike-through">$4400</span> $45.99</small>
-            </div>
-          </article>
-          <article class="latest-deal-articles">
-            <a href="#">
-              <img
-                src="./assets/product_21571_product_shots5_image.jpg"
-                alt="Sale Img 6"
-                class="deal-img"
-              />
-            </a>
-            <div>
-              <p class="img-caption">
-                <a href="#">FastestVPN: Lifetime Subscription (10 Devices)</a>
-              </p>
-              <small><span class="strike-through">$1200</span> $24.99</small>
-            </div>
-          </article>
-          <article class="latest-deal-articles">
-            <a href="#">
-              <img
-                src="./assets/sale_25748_primary_image.jpg"
-                alt="Sale Img 7"
-                class="deal-img"
-              />
-            </a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >The Complete 2021 Microsoft Azure Certification Prep
-                  Bundle</a
-                >
-              </p>
-              <small><span class="strike-through">$1839</span> $39</small>
-            </div>
-          </article>
-          <article class="latest-deal-articles">
-            <a href="#">
-              <img
-                src="./assets/sale_162645_primary_image.jpg"
-                alt="Sale Img 8"
-                class="deal-img"
-              />
-            </a>
-            <div>
-              <p class="img-caption">
-                <a href="#"
-                  >The 2021 Complete Learn to Master Photography & Editing
-                  Bundle</a
-                >
-              </p>
-              <small><span class="strike-through">$2985</span> $39.99</small>
-            </div>
-          </article>
         </div>
       </section>
-    </main>
-    <footer class="main-footer">
-      <div class="footer-wrapper">
-        <div class="social-icons">
-          <a href="#"><i class="fab fa-facebook-square"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-          <a href="#"><i class="fas fa-rss"></i></a>
-          <a href="#"><i class="far fa-envelope"></i></a>
+      <section class="bottom-articles">
+        <h1 class="section-title">PODIUM ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article6 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">2021 will be the year open source projects overcome their
+                diversity problems</a>
+            </p>
+            <small><a href="#">Christopher Ferris</a> 21 days ago</small>
+          </div>
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
+              <p>
+                <a href="#">Google still abuses its search monopoly in the EU —
+                  regulators wake up!</a>
+              </p>
+            </div>
+            <img src="./assets/google-logo-podium.png" alt="the google logo" class="side-img" />
+          </div>
+          <div class="last-article-description">
+            <ul>
+              <li>
+                <a href="#">Mixed reality is perfect for our innate multitasking
+                  habits</a>
+              </li>
+              <li>
+                <a href="#">6 big data blunders businesses should avoid</a>
+              </li>
+              <li>
+                <a href="#">The AI landscape is shifting from 'data' to 'knowledge.'
+                  Here's why that matters</a>
+              </li>
+              <li>
+                <a href="#">Disruptive fintech is our best bet to economic recovery
+                  post COVID-19</a>
+              </li>
+              <li>
+                <a href="#">Tech in Latin America: An entrepreneur’s guide to June’s
+                  startup news</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="footer-links">
-          <a href="#" class="footer-link">EVENTS</a>
-          <a href="#" class="footer-link">ABOUT</a>
-          <a href="#" class="footer-link">ADVERTISE</a>
-          <a href="#" class="footer-link">JOBS</a>
-          <a href="#" class="footer-link">CONTACT</a>
+      </section>
+      <section class="bottom-articles">
+        <h1 class="section-title">Insights ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article7 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">Gas emitted by merging galaxies is stopping stars from
+                forming</a>
+            </p>
+            <small><a href="#">The Concersation</a> 19 hours ago</small>
+          </div>
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
+              <p>
+                <a href="#">Sell for scrap or split for parts? What to do with your old
+                  car</a>
+              </p>
+            </div>
+            <img src="./assets/1-copy-26-516x270.jpg" alt="old car" class="side-img" />
+          </div>
+          <div class="last-article-description">
+            <ul>
+              <li>
+                <a href="#">Here's how to simplify your app (and get more customers)</a>
+              </li>
+              <li>
+                <a href="#">Gas emitted by merging galaxies is stopping stars from
+                  forming</a>
+              </li>
+              <li>
+                <a href="#">Electric vehicles can now use bus lanes in the UK — and
+                  cyclists aren’t happy</a>
+              </li>
+              <li>
+                <a href="#">Week-by-week breakdown of my $15M virtual fundraising
+                  journey in 2020</a>
+              </li>
+              <li>
+                <a href="#">What this simple TikTok prank taught me about work</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="bottom-articles">
+        <h1 class="section-title">Launch ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article8 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">About time! Toyota finally announces an all-electric
+                vehicle</a>
+            </p>
+            <small><a href="#">Matthew Beedham</a> 5 Weeks ago</small>
+          </div>
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
+              <p>
+                <a href="#">I’ve fallen for the electric Hummer and I hate myself for
+                  it</a>
+              </p>
+            </div>
+            <img src="./assets/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg" alt="the google logo"
+              class="side-img" />
+          </div>
+          <div class="last-article-description">
+            <ul>
+              <li>
+                <a href="#">Amazon's electric delivery vans made by Rivian are here,
+                  and they're pretty cute</a>
+              </li>
+              <li>
+                <a href="#">This adorable little electric car is made of trash</a>
+              </li>
+              <li>
+                <a href="#">Hyundai's first fuel cell-powered trucks arrive in
+                  Switzerland — bye bye, diesel</a>
+              </li>
+              <li>
+                <a href="#">Lynk & Co.'s car sharing-owning scheme will never cost more
+                  than €500 a month</a>
+              </li>
+              <li>
+                <a href="#">Lucid unveils the Air, its luxury EV with up to 517-miles
+                  of range costing as much as $169K</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="bottom-articles">
+        <h1 class="section-title">Distract ></h1>
+        <div class="article-wrapper">
+          <div class="main-article article9 article-content">
+            <h3 class="article-header">Most Popular</h3>
+            <p class="article-title">
+              <a href="#">Games to play on date night: Rule the galaxy together in
+                Stellaris</a>
+            </p>
+            <small><a href="#">Tristan Greene</a> 5 Days ago</small>
+          </div>
+          <div class="sub-article">
+            <div class="side-description">
+              <h2 class="article-title">LASTEST</h2>
+              <p>
+                <a href="#">We need to make remote meetings more boring in 2021</a>
+              </p>
+            </div>
+            <img src="./assets/boring-zoom-meeting-gq.png" alt="Zoom meeting image" class="side-img" />
+          </div>
+          <div class="last-article-description">
+            <ul>
+              <li><a href="#">The podcasts that got us through 2020</a></li>
+              <li>
+                <a href="#">How Netflix shapes mainstream culture, explained by data</a>
+              </li>
+              <li>
+                <a href="#">Christmas is better with Tom Vasel’s YouTube board game
+                  reviews</a>
+              </li>
+              <li>
+                <a href="#">How to start playing tabletop RPGs like D&D and Cyberpunk
+                  2020</a>
+              </li>
+              <li>
+                <a href="#">Watching people pretend to be vampires is what got me
+                  through 2020</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="latest-deals">
+      <div class="deals-headers">
+        <h1 class="section-title">Latest Deals ></h1>
+        <div class="section-subtitle">
+          <a href="#">See all Deals</a>
         </div>
       </div>
-      <div class="copyright">
-        <a href="#" class="logo">
-          <img src="./assets/tnw.svg" alt="footer logo" />
-        </a>
-        <span
-          >&copy; 2006-2021 The Next Web B.V. Made in Amsterdam. Powered by
-        </span>
-        <a href="#"
-          ><img
-            class="stackpath-img"
-            src="./assets/stackpath.svg"
-            alt="footer logo 2"
-        /></a>
+      <div class="deals-wrapper">
+        <article class="latest-deal-articles">
+          <div class="discount"><div> 90% OFF</div></div>
+          <a href="#">
+            <img src="./assets/sale_18296_primary_image.jpg" alt="Sale Img 1" class="deal-img" />
+          </a>
+          <div>
+            <p class="img-caption">
+              <a href="#">The Ultimate Logic Pro X Music Production Bundle</a>
+            </p>
+            <small><span class="strike-through">$690</span> $29</small>
+          </div>
+        </article>
+        <article class="latest-deal-articles">
+          <div class="discount"><div> 80% OFF</div></div>
+          <a href="#">
+            <img src="./assets/sale_26801_primary_image.jpg" alt="Sale Img 2" class="deal-img" />
+          </a>
+          <div>
+            <p class="img-caption">
+              <a href="#">The 2021 All-in-One Data Scientist Mega Bundle</a>
+            </p>
+            <small><span class="strike-through">$6000</span> $39.99</small>
+          </div>
+        </article>
+        <article class="latest-deal-articles">
+          <div class="discount"><div> 93% OFF</div></div>
+          <a href="#">
+            <img src="./assets/sale_28088_primary_image.jpg" alt="Sale Img 3" class="deal-img" />
+          </a>
+          <div>
+            <p class="img-caption">
+              <a href="#">The Ultimate 2021 White Hat Hacker Certification Bundle</a>
+            </p>
+            <small><span class="strike-through">$1345</span> $39.90</small>
+          </div>
+        </article>
+        <article class="latest-deal-articles">
+          <div class="discount"><div> 97% OFF</div></div>
+          <a href="#">
+            <img src="./assets/sale_163163_primary_image.jpg" alt="Sale Img 4" class="deal-img" />
+          </a>
+          <div>
+            <p class="img-caption">
+              <a href="#">Starchive 1TB Cloud Storage: Lifetime Subscription</a>
+            </p>
+            <small><span class="strike-through">$1530</span> $96.99</small>
+          </div>
+        </article>
+        <article class="latest-deal-articles">
+          <div class="discount"><div> 85% OFF</div></div>
+          <a href="#">
+            <img src="./assets/sale_162647_primary_image.jpg" alt="Sale Img 5" class="deal-img" />
+          </a>
+          <div>
+            <p class="img-caption">
+              <a href="#">The Premium 2021 Project & Quality Management Certification
+                Bundle</a>
+            </p>
+            <small><span class="strike-through">$4400</span> $45.99</small>
+          </div>
+        </article>
+        <article class="latest-deal-articles">
+          <div class="discount"><div> 94% OFF</div></div>
+          <a href="#">
+            <img src="./assets/product_21571_product_shots5_image.jpg" alt="Sale Img 6" class="deal-img" />
+          </a>
+          <div>
+            <p class="img-caption">
+              <a href="#">FastestVPN: Lifetime Subscription (10 Devices)</a>
+            </p>
+            <small><span class="strike-through">$1200</span> $24.99</small>
+          </div>
+        </article>
+        <article class="latest-deal-articles">
+          <div class="discount"><div> 96% OFF</div></div>
+          <a href="#">
+            <img src="./assets/sale_25748_primary_image.jpg" alt="Sale Img 7" class="deal-img" />
+          </a>
+          <div>
+            <p class="img-caption">
+              <a href="#">The Complete 2021 Microsoft Azure Certification Prep
+                Bundle</a>
+            </p>
+            <small><span class="strike-through">$1839</span> $39</small>
+          </div>
+        </article>
+        <article class="latest-deal-articles">
+          <div class="discount"><div> 95% OFF</div></div>
+          <a href="#">
+            <img src="./assets/sale_162645_primary_image.jpg" alt="Sale Img 8" class="deal-img" />
+          </a>
+          <div>
+            <p class="img-caption">
+              <a href="#">The 2021 Complete Learn to Master Photography & Editing
+                Bundle</a>
+            </p>
+            <small><span class="strike-through">$2985</span> $39.99</small>
+          </div>
+        </article>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="footer-wrapper">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        <a href="#"><i class="fas fa-rss"></i></a>
+        <a href="#"><i class="far fa-envelope"></i></a>
+      </div>
+      <div class="footer-links">
+        <a href="#" class="footer-link">EVENTS</a>
+        <a href="#" class="footer-link">ABOUT</a>
+        <a href="#" class="footer-link">ADVERTISE</a>
+        <a href="#" class="footer-link">JOBS</a>
+        <a href="#" class="footer-link">CONTACT</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <a href="#" class="logo">
+        <img src="./assets/tnw.svg" alt="footer logo" />
+      </a>
+      <span>&copy; 2006-2021 The Next Web B.V. Made in Amsterdam. Powered by
+      </span>
+      <a href="#"><img class="stackpath-img" src="./assets/stackpath.svg" alt="footer logo 2" /></a>
+    </div>
+  </footer>
+</body>
+
 </html>
