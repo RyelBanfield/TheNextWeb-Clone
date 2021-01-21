@@ -26,13 +26,11 @@ Additional description about the project and its features.
 
 - GitHub: [@RyelBanfield](https://github.com/ryelbanfield)
 - Twitter: [@RyelBanfield](https://twitter.com/ryelbanfield)
-- LinkedIn: [RyelBanfield](https://linkedin.com/ryelbanfield)
 
 👤 **Author2**
 
 - GitHub: [@nganifaith](https://github.com/nganifaith)
 - Twitter: [@Bright_ngani](https://twitter.com/Bright_ngani)
-- LinkedIn: [Kongnyu Faith Ngani](https://linkedin.com/ngani-faith)
 
 ## Contirbution
 
