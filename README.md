@@ -8,7 +8,7 @@ This is the second Microverse collaborative project
 
 > This is the second Microverse collaborative project.
 
-![screenshot](assets/SCREENSHOT.png)
+![screenshot](./SCREENSHOT.PNG)
 
 Additional description about the project and its features.
 
@@ -44,7 +44,6 @@ Feel free to check the issues page.
 
 Show your support Give a ⭐️ if you like this project!
 
-
 ## 📝 License
 
-License This project is a collaboration project of microverse students. All rights are reserved for Ryel Banfield and Ngani Faith
+This project is [MIT](LICENSE) licensed.
