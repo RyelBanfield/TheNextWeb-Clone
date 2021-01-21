@@ -384,7 +384,7 @@ small a {
 }
 
 .discount {
-  display: None;
+  display: none;
 }
 
 .latest-deal-articles {
@@ -616,7 +616,7 @@ small a {
     top: 0;
     right: 0;
     height: 75px;
-    width: 75px; 
+    width: 75px;
     background-image: url("./assets/deals-ribbon.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -634,7 +634,6 @@ small a {
     text-align: center;
     top: 25px;
     width: 100%;
-
   }
 
   /* FOOTER  */
