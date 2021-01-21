@@ -47,6 +47,7 @@ small a {
   font-size: 10px;
   font-weight: normal;
   margin: 10px;
+  color: white;
 }
 
 .section-title {
@@ -316,7 +317,7 @@ small a {
 }
 
 .article-title {
-  font-size: 11px;
+  font-size: 20px;
 }
 
 .sub-article {
@@ -341,7 +342,7 @@ small a {
 
 .last-article-description a {
   padding: 5px;
-  font-size: 11px;
+  font-size: 13px;
   opacity: 0.7;
   text-decoration: none;
   font-weight: normal;
@@ -389,6 +390,10 @@ small a {
 
 .latest-deal-articles div {
   margin-left: 5px;
+}
+
+.latest-deal-articles small {
+  color: black;
 }
 
 .strike-through {
