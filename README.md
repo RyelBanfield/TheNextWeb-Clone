@@ -4,73 +4,44 @@ This is the second Microverse collaborative project
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# The Next Web Clone
 
-> One paragraph statement about the project.
+> This is the second Microverse collaborative project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./SCREENSHOT.PNG)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://nganifaith.github.io/thenextweb_clone/)
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@RyelBanfield](https://github.com/ryelbanfield)
+- Twitter: [@RyelBanfield](https://twitter.com/ryelbanfield)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@nganifaith](https://github.com/nganifaith)
+- Twitter: [@Bright_ngani](https://twitter.com/Bright_ngani)
 
-## 🤝 Contributing
+## Contirbution
 
-Contributions, issues, and feature requests are welcome!
+🤝 Contributing Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the issues page.
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Show your support Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE) licensed.
