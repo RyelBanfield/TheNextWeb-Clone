@@ -34,10 +34,17 @@ Additional description about the project and its features.
 - Twitter: [@Bright_ngani](https://twitter.com/Bright_ngani)
 - LinkedIn: [Kongnyu Faith Ngani](https://linkedin.com/ngani-faith)
 
+## Contirbution
+
+🤝 Contributing Contributions, issues and feature requests are welcome!
+
+Feel free to check the issues page.
+
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Show your support Give a ⭐️ if you like this project!
+
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+License This project is a collaboration project of microverse students. All rights are reserved for Ryel Banfield and Ngani Faith
