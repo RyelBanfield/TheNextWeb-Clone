@@ -1,0 +1,37 @@
+/* LATEST DEALS */
+
+.deals-headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deal-img {
+  width: 75px;
+  height: 75px;
+}
+
+.latest-deals {
+  margin-bottom: 20px;
+}
+
+.discount {
+  display: none;
+}
+
+.latest-deal-articles {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.latest-deal-articles div {
+  margin-left: 5px;
+}
+
+.latest-deal-articles small {
+  color: black;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}

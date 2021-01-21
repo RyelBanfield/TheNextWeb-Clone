@@ -1,0 +1,39 @@
+/* NAV BAR */
+
+.top-nav-bar,
+.bottom-nav-bar {
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.nav-bar-logo-box {
+  background-color: black;
+  width: 106px;
+  height: 48px;
+}
+
+.nav-logo {
+  display: block;
+  width: 66px;
+  margin: auto;
+  padding-top: 18px;
+}
+
+.nav-bar-icons i {
+  padding: 15px;
+  border-left: 1px solid #ccc;
+}
+
+.fa-search {
+  opacity: 45%;
+}
+
+.fa-bars {
+  color: rgb(255, 60, 0);
+}

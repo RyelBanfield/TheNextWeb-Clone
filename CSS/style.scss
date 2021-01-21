@@ -1,0 +1,75 @@
+@import "./variables";
+@import "./nav-bar";
+@import "./top-section";
+@import "./latest-news";
+@import "./latest-funding-rounds";
+@import "./more-articles";
+@import "./latest-deals";
+@import "./footer";
+@import "./media-queries";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+/* GENERAL */
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  font-size: 16px;
+  text-align: left;
+}
+
+.body {
+  line-height: 1.5;
+  min-height: 100vh;
+  background-color: #555;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+small,
+small a {
+  font-size: 10px;
+  font-weight: normal;
+  margin: 10px;
+  color: white;
+}
+
+.section-title {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 60, 0);
+  margin: 15px 0;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.section-subtitle {
+  display: flex;
+  flex-direction: column;
+}

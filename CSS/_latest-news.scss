@@ -1,0 +1,20 @@
+/* Lastest News */
+
+.lastest-news {
+  margin: 10px;
+}
+
+.lastest-news-article {
+  display: flex;
+}
+
+.lastest-news-img {
+  width: 75px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.lastest-news-article > div {
+  font-size: 16px;
+  color: black;
+}

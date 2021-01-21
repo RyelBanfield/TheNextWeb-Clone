@@ -1,0 +1,77 @@
+/* Latest Funding Rounds */
+
+.section-subtitle a {
+  font-weight: 100;
+  padding: 2px;
+  color: rgb(255, 115, 0);
+}
+
+.latest-funding-rounds {
+  margin-top: 100px;
+}
+
+.latest-funding-article img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.latest-funding-article {
+  position: relative;
+  margin-top: 20px;
+  background-color: #fffaf8;
+}
+
+.latest-funding-company-name {
+  padding-top: 10px;
+  padding-left: 100px;
+  color: white;
+  height: 40px;
+  background-color: #f42;
+}
+
+.funding-desc {
+  padding: 10px 0 10px 100px;
+  background-color: #ff442214;
+}
+
+.latest-funding-amount {
+  margin: 0;
+}
+
+.latest-funding-cat {
+  font-size: 12px;
+  font-weight: normal;
+  opacity: 0.4;
+}
+
+.latest-funding-description {
+  background-color: #fffaf8;
+  color: #555;
+  font-size: 13px;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+.latest-funding-description > div {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.latest-funding-description p {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  margin-top: 15px;
+  padding: 10px 5px;
+  font-weight: normal;
+}
+
+.latest-funding-description .material-icons {
+  font-size: 18px;
+  margin-right: 5px;
+  color: black;
+}

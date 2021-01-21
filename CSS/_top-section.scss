@@ -1,0 +1,56 @@
+/* TOP SECTION */
+
+.article-author i {
+  margin: 4px;
+}
+
+.article-title a,
+.article-header a {
+  color: white;
+  font-size: 20px;
+}
+
+.top-section div,
+.top-section aside {
+  min-height: 200px;
+  background-size: cover;
+}
+
+.logo-date-wrapper {
+  display: none;
+}
+
+.feature-article {
+  background-image: url("/assets/Capitol-dating-app-796x417.jpg");
+}
+
+.side-article-one {
+  background-image: url("/assets/Galaxy-hed-796x419.jpg");
+}
+
+.side-article-two {
+  background-image: url("/assets/Eye-strain-screen-time-hed-796x419.jpg");
+}
+
+.article-content {
+  display: flex;
+  height: 100%;
+  background-image: linear-gradient(to top, black, transparent);
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.content {
+  margin: 10px;
+}
+
+.article-author,
+.article-author a {
+  font-size: 9px;
+  font-weight: lighter;
+  color: white;
+  margin: 10px 0;
+}
