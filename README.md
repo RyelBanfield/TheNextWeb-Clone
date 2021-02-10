@@ -1,8 +1,8 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # thenextweb_clone
 
 This is the second Microverse collaborative project
-
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # The Next Web Clone
 
